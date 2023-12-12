@@ -1,0 +1,77 @@
+.step1_div {
+  margin: 10px auto;
+  background-color: #ffffff;
+  width: fit-content;
+  box-shadow: 0px 5px 16px 0px #080F340F;
+  padding: 25px 15px;
+  border-radius: 20px;
+}
+.step1_div h3{
+  margin-bottom: 10px;
+}
+.step1_div p {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.step1_inputs {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.step1_inputs input {
+  padding: 15px;
+  border-radius: 20px;
+  border: none;
+  margin: 10px;
+  width: fit-content;
+  box-shadow: 0px 5px 16px 0px #080F340F;
+}
+.step1_inputs input:focus {
+  outline: 1px solid #4A3AFF;
+}
+
+.step1_inputs {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.user-icon {
+  position: absolute;
+  top: 32%;
+  right: 230px;
+  transform: translateY(-50%);
+  color: #6F6C90;
+}
+.email-icon {
+  position: absolute;
+  top: 32%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: #6F6C90;
+}
+
+.contact-icon {
+  position: absolute;
+  top: 82%;
+  right: 230px;
+  transform: translateY(-50%);
+  color: #6F6C90;
+}
+.company-icon {
+  position: absolute;
+  top: 82%;
+  right: 20px;
+  transform: translateY(-50%);
+  color: #6F6C90;
+}
+.button_div {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px;
+  margin-right: 400px;
+}
+
+label{
+  margin: 20px;
+}

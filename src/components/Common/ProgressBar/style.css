@@ -1,0 +1,31 @@
+.progress-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.step-indicator {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  box-shadow: 0px 5px 16px 0px #080F340F;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin: 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.step-indicator.active {
+  background-color: blue;
+  color: white;
+}
+
+.step-connector {
+  flex-grow: 1;
+  height: 2px;
+  background-color: lightgray;
+  margin: 0 5px;
+}
