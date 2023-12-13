@@ -38,7 +38,11 @@
   }
   
   .check-mark {
-    color: #000;
-    font-size: 14px;
+    border: 5px solid #6c5ffe;
+    border-radius: 50%;
+    color: #6c5ffe;
   }
   
+  label {
+    cursor: pointer;
+  }

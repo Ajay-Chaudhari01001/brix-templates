@@ -9,7 +9,7 @@ import Step3 from "./components/Form/Step3";
 import Step4 from "./components/Form/Step4";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { submitForm } from "./redux/action"; 
+import { submitForm } from "./redux/action";
 import ProgressBar from "./components/Common/ProgressBar";
 
 function App() {
@@ -38,37 +38,35 @@ function App() {
       <Header />
       <Quote />
 
-      
         <div className="progressbar_div">
           <ProgressBar currentStep={currentStep} totalSteps={4} />
         </div>
-   
 
-      {currentStep === 1 && (
-        <Step1
-          formData={formData}
-          setFormData={setFormData}
-          onNext={handleNextStep}
-        />
-      )}
+        {currentStep === 1 && (
+          <Step1
+            formData={formData}
+            setFormData={setFormData}
+            onNext={handleNextStep}
+          />
+        )}
 
-      {currentStep === 2 && (
-        <Step2
-          formData={formData}
-          setFormData={setFormData}
-          onNext={handleNextStep}
-          onPrev={handlePrevStep}
-        />
-      )}
+        {currentStep === 2 && (
+          <Step2
+            formData={formData}
+            setFormData={setFormData}
+            onNext={handleNextStep}
+            onPrev={handlePrevStep}
+          />
+        )}
 
-      {currentStep === 3 && (
-        <Step3
-          formData={formData}
-          setFormData={setFormData}
-          onNext={handleNextStep}
-          onPrev={handlePrevStep}
-        />
-      )}
+        {currentStep === 3 && (
+          <Step3
+            formData={formData}
+            setFormData={setFormData}
+            onNext={handleNextStep}
+            onPrev={handlePrevStep}
+          />
+        )}
 
       {currentStep === 4 && <Step4 onPrev={handlePrevStep} />}
 

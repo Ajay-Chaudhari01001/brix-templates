@@ -18,7 +18,7 @@ const RadioBox: React.FC<RadioSelectBoxProps> = ({
     onClick={onClick}
   >
     <div className={`custom-radio ${isSelected ? "selected" : ""}`}>
-      {isSelected && <div className="check-mark">&#10003;</div>}
+      {isSelected && <div className="check-mark"></div>}
     </div>
     <label htmlFor={optionText}>{optionText}</label>
   </div>

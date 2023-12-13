@@ -22,7 +22,8 @@ const ProgressBar: React.FC<ProgressBarProps> = ({
                 className={`step-connector ${
                   step <= currentStep ? "active" : ""
                 }`}
-              ></div>
+              >
+              </div>
               <div
                 className={`step-indicator ${
                   step <= currentStep ? "active" : ""
