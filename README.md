@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+## Creating a multistep form with Redux in a React application involves several steps.
+<img width="938" alt="brix" src="https://github.com/Ajay-Chaudhari01001/brix-templates/assets/55138445/114633ab-86e3-4392-b485-35dc95e9ce2a">
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
